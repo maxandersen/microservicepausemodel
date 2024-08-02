@@ -1,0 +1,67 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "pausedist": {
+      "script-ref": "com.github.kcpeppe:microservicepausemodel:main-ab0465559d-1",
+      "dependencies": [
+        "org.openjfx:javafx-controls:21",
+        "org.openjfx:javafx-base:21",
+        "org.openjfx:javafx-graphics:21"
+      ],
+      "repositories": [
+        "central",
+        "jitpack"
+      ],
+      "java": "21",
+      "main": "com.kodewerk.microservices.model.MicroservicePauseDistributionChart",
+      "java-agents": []
+    },
+    "taillatency": {
+      "script-ref": "com.github.kcpeppe:microservicepausemodel:main-SNAPSHOT",
+      "dependencies": [
+        "org.openjfx:javafx-controls:21",
+        "org.openjfx:javafx-base:21",
+        "org.openjfx:javafx-graphics:21"
+      ],
+      "repositories": [
+        "central",
+        "jitpack"
+      ],
+      "java": "21",
+      "main": "com.kodewerk.microservices.model.MicroserviceTailLatencyDistributionChart",
+      "java-agents": []
+    },
+    "expectedpause": {
+      "script-ref": "com.github.kcpeppe:microservicepausemodel:main-SNAPSHOT",
+      "dependencies": [
+        "org.openjfx:javafx-controls:21",
+        "org.openjfx:javafx-base:21",
+        "org.openjfx:javafx-graphics:21"
+      ],
+      "repositories": [
+        "central",
+        "jitpack"
+      ],
+      "java": "21",
+      "main": "com.kodewerk.microservices.model.MicroserviceExpectedPauseDistributionChart",
+      "java-agents": []
+    },
+
+    "callchain": {
+      "script-ref": "com.github.kcpeppe:microservicepausemodel:main-SNAPSHOT",
+      "dependencies": [
+        "org.openjfx:javafx-controls:21",
+        "org.openjfx:javafx-base:21",
+        "org.openjfx:javafx-graphics:21"
+      ],
+      "repositories": [
+        "central",
+        "jitpack"
+      ],
+      "java": "21",
+      "main": "com.kodewerk.microservices.model.MicroserviceCallChainChart",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
